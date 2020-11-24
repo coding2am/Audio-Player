@@ -12,7 +12,6 @@ body {
     flex-direction: row;
     justify-content: flex-end;
     top:20px;
-    left:90%;
     position: fixed;
 }
 .auth a {
