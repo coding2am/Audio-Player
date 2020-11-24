@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+body {
+    font-family: 'Oswald', sans-serif;
+}
+.musinControls {
+    display: flex;
+    flex-direction: row;
+}
+.auth {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    top:20px;
+    left:90%;
+    position: fixed;
+}
+.auth a {
+    font-size: 16px;
+    transition: all 0.5s;
+}
+.auth a:hover {
+    color:#5499C7!important;
+}
+.controls {
+    cursor: pointer;
+}
+.currentAndTotalTime {
+    color:#fff;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#progressBar {
+    width: 100%;
+    height: 3px;
+    background-color: snow;
+}
+
+#currentProgressBar {
+    width: 0;
+    height: 100%;
+    background-color: #2874A6;
+}
+.controls {
+    font-size: 30px;
+    color:#D0D3D4;
+    margin:20px 40px;
+    cursor: pointer;
+}
+.pauseBtn {
+    display: none;
+}
+.header {
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    padding:20px;
+}
+.tracks {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.tracks:hover {
+    background-color: rgba(22, 16, 52, 0.9);
+    color:cyan;
+}
+.currentRunningMusic {
+    font-size: 50px;
+    opacity: 0.7;
+    font-family: 'Nerko One', cursive;
+}
